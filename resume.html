@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://alumni.media.mit.edu/~persones/emailCan/emailCan.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    <title>Eyal Shahar</title>
+  </head>
+
+  <body>
+    <style>
+      body {
+        font-family: Cambria, Georgia, "Times New Roman";
+        font-size: 12px;
+        width: 600px;
+        margin: auto;
+      }
+
+
+
+      /*table {
+      border-style: none;
+      border-collapse: collapse;
+      width: 100%;
+      }
+
+      ul {
+      padding-left: 20px;
+      margin: 0px;
+      list-style-type: square;
+      }
+
+      li::marker {
+      content: "#" counter(counter) ":";
+      }
+
+      .datediv {
+      width: 70px;
+      font-weight: 600;
+      color: #9b6e00;
+      }
+
+      div {
+      vertical-align: top;
+      padding: 2px;
+      }
+
+      div {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      }
+      */
+
+      .pagebreak {
+        page-break-after: always;
+        position: relative;
+      }
+
+      .section {
+        page-break-inside: avoid;
+        margin-top: 1em;
+        display: inline-block;
+      }
+
+      .section_header {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 1.3em;
+        font-weight: bold;
+        border-bottom: 3px solid sandybrown;
+        display: inline-block;
+      }
+
+
+      .hidden {
+        display: none;
+      }
+
+      .name {
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 30px;
+      }
+
+      .contact {
+        text-align: left;
+        vertical-align: middle;
+      }
+
+      .top-line {
+        margin-bottom: 20px;
+      }
+
+      .list-section {
+        margin: 0px 10px;
+      }
+
+      .degree {
+        font-weight: bold;
+      }
+
+      .me {
+        font-weight: bold;
+      }
+
+      .paper_title {
+        font-style: italic;
+      }
+
+      #content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      .position {
+        position: relative;
+      }
+
+      .title {
+        font-weight: bold;
+      }
+
+      .company {
+        font-style: italic;
+      }
+
+      ul {
+        list-style-type:square;
+        margin: 0em;
+        padding-left: 2em;
+      }
+
+      .talk, .patent, .poster, .publication, .position, .degree_container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5em;
+
+      }
+
+      .talk .datediv, .patent .datediv, .poster .datediv, .publication .datediv, .degree_container .datediv{
+        width: 10%;
+        flex-grow: 0;
+        flex-shrink: 0;
+      }
+
+      .position .datediv {
+        width: 20%;
+        flex-grow: 0;
+        flex-shrink: 0;
+      }
+
+
+      .skill_family {
+        font-weight: bold;
+        display: list-item;
+        margin-top: 0.5em;
+      }    
+
+    </style>
+    <div>
+      <table class="top-line">
+        <div>
+          <div class="name">Eyal Shahar</div>
+          <div class="contact">www.eyalshahar.com
+            <br>
+            <div class="emailCan" data-username="eyal" data-dom="eyalshahar.com"></div>
+          </div>
+        </div>
+        <div></div>
+      </table>
+    </div>
+    <div id="content">
+      <div class="section" id="education">
+        <div class="section_header">Education</div>
+        <div class="degree_container">
+          <div class="datediv">Jun. '12</div>
+          <div>
+            <div class="degree">S.M. in Media Arts and Sciences</div>
+            <div class="school">Media Lab, MIT, Cambridge, MA, USA</div>
+          </div>
+        </div>
+        <div class="degree_container">
+          <div class="datediv">Dec. '03</div>
+          <div>
+            <div class="degree">B.Sc. in Electrical Engineering</div>
+            <div class="school">Tel Aviv University, Tel Aviv, Israel</div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="tech">
+        <div class="section_header">Work Experience - Technology</div>
+        <div class="position">
+          <div class="datediv">Mar. '14 - Present</div>
+          <div>
+            <div class="title">Exhibit Developer</div>   
+            <div class="company">New Media Group, The Exploratorium, San Francisco, CA, USA</div>
+            <ul>
+              <li>Designing and developing physical computing and on-screen experiences for an interactive, open-ended, science learning environment. </li>
+            </ul>
+          </div>
+        </div>
+        <div class="position">
+          <div class="datediv">Jul. '13 - Jul. '14</div> 
+          <div>
+            <div class="title">Software/DSP Engineer</div>
+            <div class="company"><em>Musikara</em>, Oakland, CA, USA</div>
+            <ul>
+              <li>Designing music information retrieval algorithms, applying machine learning techniques and developing backend infrastructure for online music collaboration platforms.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="position">
+          <div class="datediv">Sep. '12 - Mar. '13</div>
+          <div>
+            <div class="title">Engineering Consultant</div>    
+            <div class="company"> <em>Le Laboratoire</em>, Paris, France</div>
+
+            <ul>
+              <li>Conducted and assisted design and development of electronics, software, and interactions for exhibitions incorporating science, design and art.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="position">
+          <div class="datediv">Sep. '10 - Jun. '12</div>
+          <div>
+            <div class="title">Research Assistant</div>    
+            <div class="company"> Opera of the Future group, Media Lab, <em>MIT</em>, Cambridge, MA, USA</div>
+
+            <ul>
+              <li>Performed music and technology related research, with focus on tangible music composition and tools for distributed music learning.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="position">
+          <div class="datediv">Aug. '09 - May '10</div>
+          <div>
+            <div class="title">DSP Engineer</div>    
+            <div class="company"><em>JamRT</em>, Tel Aviv, Israel</div>
+
+            <ul>
+              <li>Performed research, design and application of DSP algorithms in a start-up company developing "TubeHero", an online social music game.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="position">
+          <div class="datediv">Jan. '07 - Dec. '08</div>
+          <div>
+            <div class="title">DSP Engineer</div>    
+            <div class="company">Core Team, <em>Neocraft</em>, Ramat Gan, Israel</div>
+            <ul>
+              <li>Performed research, design and application of DSP algorithms in a start-up company developing products for the pro and semi-pro audio market.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="section" id="leadership">
+        <div class="section_header">Work Experience - Leadership</div>
+        <div class="position">
+          <div class="datediv">Sep. '09 - Jun. '10</div>
+          <div>
+            <div class="title">Mentor</div>    
+            <div class="company"><em>Aviv High School robotics class</em>, Ra'anana, Israel</div>
+
+            <ul>
+              <li>Taught design, construction and programming of robots in preparation for the international FIRST Robotics Competition.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div class="datediv">Dec. '02 - May '06</div>  
+          <div>
+            <div class="title">Manager</div>    
+            <div class="company">Electronic Music Department, <em>Hed College of Contemporary Music</em>, Tel Aviv, Israel</div>
+
+            <ul>
+              <li>Managed team of 4 teachers.</li>
+              <li>Developed academic programs and marketing initiatives and strategies.</li>
+              <li>Taught in the Electronic Music, Sound Engineering and Contemporary Music departments.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="music">
+        <div class="section_header">Work Experience - Music</div>
+        <div class="position">
+          <div class="datediv">Oct. '98 - Aug. '10</div>
+          <div>
+            <div class="title">Independent Music Professional</div>    
+            <div class="company"><em><em>Self Employed</em>, Tel Aviv, Israel</em></div>
+
+            <ul>
+              <li>Performed as tour band member, playing keyboards, samplers and computers.</li>
+              <li>Provided sound design and music programming services for platinum-record-selling Israeli artists and T.V. commercials on national and international scale.</li>
+              <li>Produced and arranged music in lead recording studios.</li>
+              <li>Earned a total of 5 platinum and gold albums.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="position: relative">
+        <div class="pagebreak"></div>      
+      </div>
+      <div class="section" id="skills">
+        <div class="section_header">Technical Skills</div>
+        <ul class="list-section">
+          <li><span class="skill_family">Software:</span> C/C++, Java, Python, JavaScript, HTML/CSS, Assembly, Matlab</li>
+          <li><span class="skill_family">Frameworks:</span> Node, Electron, Django, JQuery, Express, Easel, ERDDAP</li>
+          <li><span class="skill_family">Electronics:</span> Electronic circuits, microcontrollers, Eagle</li>
+          <li><span class="skill_family">Fabrication:</span> SolidWorks, Machining, CNC, laser cutting, 3D printing, vacuum forming</li>
+          <li><span class="skill_family">Music Software:</span> Ableton Live, Reaktor, Cubase/Nuendo, Logic, Protools</li>
+          <li><span class="skill_family">Creative Coding:</span> Arduino, Processing, Max/MSP, openframeworks</li>
+        </ul>
+      </div>
+      <div class="section hidden" id="projects">
+        <div class="section_header">Selected Projects</div>
+        <table>
+          <div>
+            <div class="datediv">Oct. '11 -
+              <br>May '12</div>
+            <div><span class="skill_family">MIT/Punchdrunk</span>, <em>Extending Sleep No More</em>, New York, NY, USA
+              <ul>
+                <li>Designed and built physical computing props for an experiment in immersive teleperformance</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="datediv">May '11</div>
+            <div><span class="skill_family">MIT</span>, <em>"Chroma Disdivict" installation</em>, Cambridge, MA, USA
+              <ul>
+                <li>Co-created installation an an interactive installation for the Festival of Arts, Science and Technology - FAST Light</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="datediv">Jun. '10 -
+              <br>Aug. '10</div>
+            <div><span class="skill_family">Tel Aviv University</span>, Digital Signal Processing Laboratory, <em>C6000 Teaching ROM</em>, Tel Aviv, Israel
+              <ul>
+                <li>Programmed examples for a Texas Insdivument DSP evaluation module tutorial DVD</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="datediv">Jul. '09</div>
+            <div><span class="skill_family">Sigalit Landau</span>, <em>"The
+              Dining Hall" installation</em>, Tel Aviv, Israel
+              <ul>
+                <li>Designed and fabricated elecdivonic circuidivy</li>
+              </ul>
+            </div>
+          </div>
+        </table>
+      </div>
+      <div class="section" id="publications">
+        <div class="section_header">Publications</div>
+        <div>
+          <div class="publication">
+            <div class="datediv">May '12</div>
+            <div><span class="me">Shahar, E.</span> <span class="paper_title">SoundStrand: Composing with a Tangible Interface</span> Proceedings of the 12th international conference on New interfaces for musical expression, Ann Arbor, MA</div>
+          </div>
+          <div class="publication">
+            <div class="datediv">Mar. '12</div>
+            <div><span class="me">Shahar, E.</span> <span class="paper_title">SoundStrand
+              A toy for music composition</span> Proceedings of the 2012 Music, Mind and Invention Workshop, Ewing, NJ</div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="posters">
+        <div class="section_header">Conference Posters</div>
+        <div>
+          <div class="poster">
+            <div class="datediv">Dec. '16</div>
+            <div>Raheja, G, Shusterman, A. A., Martin, S., <span class="me">Shahar, E.</span>, Laughner, J. L., Turner, A. J., Miller, M. K., Cohen, R. C. <span class="paper_title">Imagining CO<sub>2</sub>: development and assessment of interactive visualizations for high resolution greenhouse gas observations collected by BEACO<sub>2</sub>N.</span> American Geophysical Union fall meeting, San Francisco, CA</div>
+          </div>
+          <div class="poster">
+            <div class="datediv">Dec. '16</div>
+            <div>Ma, J., <span class="me">Shahar, E.</span>, Dai B., Metha, G., Eliceiri, K., Yu, K. <span class="paper_title">Seeing Sceintifically: Scaffolding scientific observation in a museum setting.</span> American Society of Cell Biology annual meeting, San Francisco, CA</div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="patents">
+        <div class="section_header">Patents</div>
+        <table>
+          <div class="patent">
+            <div class="datediv">Mar. '14</div>
+            <div>Edwards, D. A., Field, R. D., Yin, A. M., <span class="me">Shahar, E.</span> <span class="paper_title">Systems, methods and articles to provide olfactory sensations.</span> U.S. Patent Application us 14/213,608. Patent Pending.</div>
+          </div>
+          <div class="patent">
+            <div class="datediv">Mar. '14</div>
+            <div>Edwards, D. A., Field, R. D., Yin, A. M., <span class="me">Shahar, E.</span> <span class="paper_title">Systems, methods and articles to provide olfactory sensations.</span> U.S. Patent Application us 14/213,683. Patent Pending.</div>
+          </div>
+        </table>
+      </div>
+      <div class="section" id="talks">
+        <div class="section_header">Talks</div>
+        <div class="talk">
+          <div class="datediv">Oct. '17</div>
+          <div>Moderator and presenter, <span class="paper_title">"Smart Exhibits" - Using Technology to Create Dynamic Content and Enhance Visitor Engagement</span>, Association of Science - Technology Centers Annual Conference, San Jose, CA, USA</div>
+        </div>
+        <div class="talk">
+          <div class="datediv">Apr. '14</div>
+          <div>Microsoft Israel: Think Next, Tel Aviv, Israel</div>
+        </div>
+        <div class="talk">
+          <div class="datediv">May '13</div>
+          <div>Pecha Kucha, Tel Aviv, Israel</div>
+        </div>
+        <div class="talk">
+          <div  class="datediv">Jul. '12</div>
+          <div>End-of-year event, The Interaction Lab, Holon Institute of Technology, Holon, Israel</div>
+        </div>
+      </div>
+      <div class="section" id="misc">
+        <div class="section_header">Miscellaneous</div>
+        <ul class="list-section">
+          <li>American and Israeli citizenships</li>
+          <li>Verbal and written English and Hebrew at native tongue level</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
